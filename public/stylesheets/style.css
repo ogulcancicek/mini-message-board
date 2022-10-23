@@ -1,8 +1,74 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+*,html{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
-a {
-  color: #00B7FF;
+body{
+  background-color: #191919;
+  color: #fff;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  margin-top: 50px;
+}
+
+.add-btn-container{
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-btn{
+  background-color: rgb(230, 96, 0);
+  text-decoration: none;
+  color: #191919;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.messages-general-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.message-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80%;
+  min-height: 80px;
+  margin-top: 50px;
+  border-bottom: 1px solid #fff;
+}
+
+.message-body{
+  margin: 20px 10px 0 10px;
+}
+
+.message-text{
+  font-size: 20px;
+}
+
+.message-details{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.message-user{
+  font-size: 0.8rem;
+  color: rgb(230, 96, 0);
+}
+
+.message-date{
+  font-size: 0.6rem;
 }
